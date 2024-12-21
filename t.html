@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimFlix Video Webplayer</title>
+    <style>
+        body {
+            background-color: #141414;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+        header {
+            width: 100%;
+            background-color: #1a1a1a; /* Dunkler Hintergrund */
+            color: rgb(255, 0, 0); /* Weiße Schriftfarbe */
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        header h1 {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0;
+            padding-left: 20px; /* Abstand zum linken Rand */
+        }
+        iframe {
+            border: none;
+            width: 90vw; /* 90% der Bildschirmbreite */
+            height: 80vh; /* 80% der Bildschirmhöhe */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SimFlix</h1>
+    </header>
+    <iframe 
+        src="https://sandratableother.com/e/0r27ephvatq4"
+        sandbox="allow-same-origin allow-scripts allow-popups"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
